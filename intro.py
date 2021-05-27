@@ -18,4 +18,13 @@ print(msg.find("l")) # prints the first index of l
 
 new_msg = msg.replace("World", "Universe") # takes 2 arguments and returns a new string replaced with the second argument of replace. it returns so we need a new variable
 
-print(new_msg)
+print(new_msg) #prints the new message with the replaced word
+
+#concatination of string using place holders for formatted strings
+
+greeting = 'hello'
+name = 'michael'
+
+message = '{}, {}. Welcome'.format(greeting,name)
+
+print(message) 
