@@ -25,6 +25,6 @@ print(new_msg) #prints the new message with the replaced word
 greeting = 'hello'
 name = 'michael'
 
-message = '{}, {}. Welcome'.format(greeting,name)
+message= '{}, {}. Welcome'.format(greeting,name)
 
 print(message) 
